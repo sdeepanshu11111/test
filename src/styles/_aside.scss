@@ -1,33 +1,39 @@
 aside {
   width: 15vw;
   height: 100vh;
-  background-color: antiquewhite;
   padding-top: 4rem;
+  position: fixed;
+  overflow: hidden;
+  box-shadow: 2px 2px 50px #cacaca;
 }
 
 .list {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding-left: 1.2rem;
-  margin-bottom: 0.5rem;
+  padding-right: 1.2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   .icon {
     padding-right: 0.6rem;
+    color: #010727;
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     width: 100%;
+    font-weight: 500;
+    color: #010727;
   }
 }
 
 li:first-of-type {
   .list {
-    background-color: black;
+    background-color: #010727;
     h2 {
       color: white;
+      font-weight: 600;
     }
   }
 }

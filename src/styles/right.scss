@@ -1,5 +1,104 @@
 .right {
   width: 30vw;
   height: 100vh;
-  background-color: gray;
+  padding-top: 2rem;
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+
+    button {
+      padding: 0.6rem;
+      background-color: #010727;
+      color: white;
+      border: none;
+      outline: none;
+      text-align: center;
+      font-size: 0.8rem;
+      border-radius: 3px;
+    }
+  }
+
+  .orangeBtn {
+    .orange {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #fe9263;
+      height: 3.2rem;
+      width: 85%;
+      margin: auto;
+      border-radius: 20px;
+      margin-bottom: 1.2rem;
+      box-shadow: 4px 4px 0px #e08158;
+
+      .Oicon {
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-left: 0.8rem;
+        margin-right: 1rem;
+
+        height: 35px;
+        width: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .nest {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          svg {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      h3 {
+        color: white;
+        font-weight: 500;
+        font-size: 0.9rem;
+      }
+    }
+
+    .blueCard {
+      height: 8.5rem;
+      width: 85%;
+      background-color: #1f294b;
+      margin: auto;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1rem 1.5rem;
+      border-radius: 20px;
+      box-shadow: -4px 5px 14px 1px #838383;
+
+      h4 {
+        color: white;
+      }
+
+      p {
+        color: white;
+        font-size: 0.7rem;
+      }
+
+      button {
+        background-color: #61678f;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        justify-content: center;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+      }
+    }
+  }
 }

@@ -1,5 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlay, faTh } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPlay,
+  faTh,
+  faTicketAlt,
+  faThLarge,
+  faShoppingBag,
+  faSortDown,
+  faMoneyCheckAlt,
+  faQuestionCircle,
+  faAddressCard,
+  faSignOutAlt,
+  faInfoCircle,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Aside = () => {
   return (
@@ -8,7 +20,7 @@ const Aside = () => {
         <li>
           <div className="list">
             <div className="icon">
-              <FontAwesomeIcon color="white" icon={faTh} size="1x" />
+              <FontAwesomeIcon color="white" icon={faThLarge} size="1x" />
             </div>
             <h2>Dashboard</h2>
           </div>
@@ -16,15 +28,16 @@ const Aside = () => {
         <li>
           <div className="list">
             <div className="icon">
-              <FontAwesomeIcon icon={faTh} />
+              <FontAwesomeIcon icon={faTicketAlt} />
             </div>
             <h2>Pre-Reserve</h2>
+            <FontAwesomeIcon color="black" icon={faSortDown} size="0.3x" />
           </div>
         </li>
         <li>
           <div className="list">
             <div className="icon">
-              <FontAwesomeIcon icon={faPlay} />
+              <FontAwesomeIcon icon={faMoneyCheckAlt} />
             </div>
             <h2>Invest</h2>
           </div>
@@ -32,7 +45,7 @@ const Aside = () => {
         <li>
           <div className="list">
             <div className="icon">
-              <FontAwesomeIcon icon={faPlay} />
+              <FontAwesomeIcon icon={faShoppingBag} />
             </div>
             <h2>Buy Token</h2>
           </div>
@@ -40,15 +53,15 @@ const Aside = () => {
         <li>
           <div className="list">
             <div className="icon">
-              <FontAwesomeIcon icon={faPlay} />
+              <FontAwesomeIcon icon={faQuestionCircle} />
             </div>
-            <h2>Faq</h2>
+            <h2>FAQ</h2>
           </div>
         </li>
         <li>
           <div className="list">
             <div className="icon">
-              <FontAwesomeIcon icon={faPlay} />
+              <FontAwesomeIcon className="far" icon={faInfoCircle} />
             </div>
             <h2>Support</h2>
           </div>
@@ -56,7 +69,7 @@ const Aside = () => {
         <li>
           <div className="list">
             <div className="icon">
-              <FontAwesomeIcon icon={faPlay} />
+              <FontAwesomeIcon color="#010727" icon={faAddressCard} />
             </div>
             <h2>Kyc</h2>
           </div>
@@ -64,7 +77,7 @@ const Aside = () => {
         <li>
           <div className="list">
             <div className="icon">
-              <FontAwesomeIcon color="red" icon={faPlay} />
+              <FontAwesomeIcon color="red" icon={faSignOutAlt} />
             </div>
             <h2>Logout</h2>
           </div>
