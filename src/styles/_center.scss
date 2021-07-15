@@ -1,0 +1,21 @@
+.center {
+  background-color: aqua;
+  height: 100vh;
+  width: 55vw;
+
+  .chart {
+    height: 40%;
+    background-color: gray;
+  }
+
+  .slider {
+    height: 30%;
+    background-color: rgb(245, 18, 18);
+    margin-top: 0.8rem;
+  }
+
+  .blank {
+    height: 40%;
+    background-color: white;
+  }
+}

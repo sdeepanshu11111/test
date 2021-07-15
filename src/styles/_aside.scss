@@ -1,0 +1,41 @@
+aside {
+  width: 15vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  padding-top: 4rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  .icon {
+    padding-right: 0.6rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    width: 100%;
+  }
+}
+
+li:first-of-type {
+  .list {
+    background-color: black;
+    h2 {
+      color: white;
+    }
+  }
+}
+
+li:last-of-type {
+  .list {
+    h2 {
+      color: red;
+    }
+  }
+}
