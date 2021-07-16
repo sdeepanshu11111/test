@@ -1,12 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserTie, faSlidersH } from "@fortawesome/free-solid-svg-icons";
 
+import Pie from "./pie";
+
 const Right = () => {
   return (
     <div className="right">
       <div className="buttons">
         <button>Buy New Token</button>
       </div>
+
       <div className="orangeBtn">
         <div className="orange">
           <div className="Oicon">
@@ -37,6 +40,8 @@ const Right = () => {
           <button> + &nbsp; Reserve</button>
         </div>
       </div>
+
+      <div id="p" className="pp"></div>
     </div>
   );
 };
