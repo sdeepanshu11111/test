@@ -1,7 +1,7 @@
 .center {
   h2 {
-    padding-bottom: 1rem;
     font-size: 1rem;
+    padding-top: 1rem;
   }
 
   .chartUpper {
@@ -26,6 +26,7 @@
   }
 
   .chart {
+    background-color: white;
     height: 50%;
     box-shadow: -4px 5px 14px 1px #838383;
     // background-color: gray;

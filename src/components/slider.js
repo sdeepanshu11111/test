@@ -3,9 +3,9 @@ import Asset from "../img/asset.jpg";
 const Slider = () => {
   return (
     <div className="grid-container">
-      <h2>Assets Available</h2>
-
       <main className="grid-item main">
+        <h2>Assets Available</h2>
+
         <div className="items">
           <div className="item item1">
             <img src={Asset} alt="" />

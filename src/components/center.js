@@ -20,8 +20,6 @@ const Center = () => {
       </div>
 
       <Slider />
-
-      <div className="blank"></div>
     </div>
   );
 };

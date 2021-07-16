@@ -18,6 +18,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="dash"></div>
       <Aside navStatus={navStatus} />
       <div onClick={navHandler} id="burger">
         <div class="line1"></div>
