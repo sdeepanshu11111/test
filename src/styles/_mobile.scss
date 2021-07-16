@@ -27,19 +27,20 @@
   }
 
   aside {
-    width: 15vw;
+    width: 18vw;
     height: 100vh;
     padding-top: 4rem;
     position: fixed;
     overflow: hidden;
     box-shadow: 2px 2px 50px #cacaca;
-    transform: translateX(-100%);
-    transition: all 0.5s ease;
+    transform: translateX(-150%);
+    transition: 0.5s linear;
+    z-index: 9999;
   }
 
   .activeNav {
     width: 40%;
-    z-index: 9999;
+
     transform: translateX(0);
   }
 
@@ -75,7 +76,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-
+    padding-right: 0;
     padding-bottom: 1rem;
   }
 

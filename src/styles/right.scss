@@ -33,6 +33,7 @@
       border-radius: 20px;
       margin-bottom: 1.2rem;
       box-shadow: 4px 4px 0px #e08158;
+      cursor: pointer;
 
       .Oicon {
         background-color: rgb(255, 255, 255);
@@ -89,6 +90,7 @@
       }
 
       button {
+        cursor: pointer;
         background-color: #61678f;
         color: white;
         display: flex;
