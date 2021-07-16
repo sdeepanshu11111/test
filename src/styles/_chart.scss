@@ -12,6 +12,14 @@
     flex-wrap: nowrap;
   }
 
+  .chartBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    flex-wrap: nowrap;
+  }
+
   .chartBtn button {
     padding: 0.6rem;
     background-color: #eaeaea;
