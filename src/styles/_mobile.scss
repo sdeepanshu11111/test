@@ -88,4 +88,17 @@
     font-size: 1em;
     font-weight: 700;
   }
+
+  .dash {
+    position: absolute;
+    top: -10;
+    left: 0px;
+    height: 30%;
+    width: 100%;
+    background-color: #010727;
+    z-index: 0;
+    transform: rotate(0deg);
+    border-radius: 30px;
+    box-shadow: -4px 5px 14px 1px #838383;
+  }
 }
