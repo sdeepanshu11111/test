@@ -5,10 +5,21 @@
   font-family: "Inter", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .App {
   display: flex;
+
+  .r {
+    display: flex;
+  }
 }
 
 @import "./aside";
 @import "./center";
 @import "./right";
+@import "./chart";
+@import "./slider";
+@import "./mobile";

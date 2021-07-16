@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) {
+  // aside
+  .App {
+    display: flex;
+    position: relative;
+
+    .burger {
+      position: absolute;
+      top: 3rem;
+      left: 1.2rem;
+
+      div {
+        width: 25px;
+        height: 3px;
+        background-color: rgb(27, 24, 24);
+        margin: 5px;
+      }
+    }
+
+    .r {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  aside {
+    width: 15vw;
+    height: 100vh;
+    padding-top: 4rem;
+    position: fixed;
+    overflow: hidden;
+    box-shadow: 2px 2px 50px #cacaca;
+    display: none;
+  }
+
+  // center
+
+  .center {
+    // background-color: aqua;
+    height: 50%;
+    width: 88%;
+    padding-left: 0rem;
+    padding-top: 2rem;
+    margin: auto;
+
+    h1 {
+      text-align: right;
+    }
+  }
+
+  // right
+
+  .right {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    padding-top: 2rem;
+  }
+
+  .right .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 1rem;
+  }
+
+  // Slider
+  .grid-item {
+    color: #fff;
+
+    padding: 0.6rem 0;
+    font-size: 1em;
+    font-weight: 700;
+  }
+}

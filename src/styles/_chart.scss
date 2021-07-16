@@ -1,0 +1,34 @@
+.center {
+  h2 {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .chartUpper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+
+  .chartBtn button {
+    padding: 0.6rem;
+    background-color: #eaeaea;
+    color: #818fbd;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    margin-right: 0.2rem;
+  }
+
+  .chart {
+    height: 50%;
+    box-shadow: -4px 5px 14px 1px #838383;
+    // background-color: gray;
+    padding: 1rem;
+    border-radius: 15px;
+    padding-bottom: 2rem;
+  }
+}
