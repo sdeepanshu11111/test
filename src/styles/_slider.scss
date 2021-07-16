@@ -6,6 +6,7 @@ $white: #efefef;
 .grid-container {
   background: $white;
   font-family: "Rubik", sans-serif;
+  height: 250px;
 }
 
 //ENABLE CSS GRID FOR LIFT OFF  🚀
@@ -117,8 +118,8 @@ $white: #efefef;
     }
 
     @media screen and (max-width: 500px) {
-      min-height: 120px;
-      min-width: 120px;
+      min-height: 100px;
+      min-width: 100px;
     }
   }
 }

@@ -13,9 +13,9 @@ import {
   faInfoCircle,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Aside = () => {
+const Aside = ({ navStatus }) => {
   return (
-    <aside>
+    <aside class={navStatus ? "activeNav" : ""}>
       <ul>
         <li>
           <div className="list">

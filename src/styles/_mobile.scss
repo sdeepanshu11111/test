@@ -1,13 +1,15 @@
 @media screen and (max-width: 600px) {
   // aside
+
   .App {
     display: flex;
     position: relative;
 
-    .burger {
+    #burger {
       position: absolute;
-      top: 3rem;
-      left: 1.2rem;
+      right: 1.2rem;
+      top: 2rem;
+      height: 25px;
 
       div {
         width: 25px;
@@ -31,21 +33,32 @@
     position: fixed;
     overflow: hidden;
     box-shadow: 2px 2px 50px #cacaca;
-    display: none;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+  }
+
+  .activeNav {
+    width: 40%;
+    z-index: 9999;
+    transform: translateX(0);
+  }
+
+  .item .caption {
+    right: 6%;
   }
 
   // center
 
   .center {
     // background-color: aqua;
-    height: 50%;
+    // height: 50%;
     width: 88%;
     padding-left: 0rem;
     padding-top: 2rem;
     margin: auto;
 
     h1 {
-      text-align: right;
+      text-align: left;
     }
   }
 

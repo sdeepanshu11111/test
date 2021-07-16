@@ -3,11 +3,23 @@ import Aside from "./components/aside";
 import Center from "./components/center";
 import Right from "./components/right";
 
+import React, { useState } from "react";
+
 function App() {
+  const [navStatus, setNavStatus] = useState(false);
+
+  const navHandler = () => {
+    if (navStatus) {
+      setNavStatus(false);
+    } else {
+      setNavStatus(true);
+    }
+  };
+
   return (
     <div className="App">
-      <Aside />
-      <div id="burger" class="burger">
+      <Aside navStatus={navStatus} />
+      <div onClick={navHandler} id="burger">
         <div class="line1"></div>
         <div class="line1"></div>
         <div class="line1"></div>

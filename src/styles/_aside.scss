@@ -5,6 +5,7 @@ aside {
   position: fixed;
   overflow: hidden;
   box-shadow: 2px 2px 50px #cacaca;
+  background-color: white;
 }
 
 .list {
@@ -43,11 +44,5 @@ li:last-of-type {
     h2 {
       color: red;
     }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  aside {
-    display: none;
   }
 }
